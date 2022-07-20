@@ -1,0 +1,19 @@
+.footer {
+    @include vertical-padding;
+    background-color: $blue;
+    color: white;
+
+    .row {
+        .logo {
+            width: 10rem;
+        }
+
+        .footer-graphic {
+            width: 2rem;
+        }
+
+        a {
+            color: white;
+        }
+    }
+}

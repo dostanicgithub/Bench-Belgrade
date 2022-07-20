@@ -1,0 +1,13 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: $blue;
+}
+
+@mixin vertical-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

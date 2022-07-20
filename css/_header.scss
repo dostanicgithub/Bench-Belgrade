@@ -1,0 +1,25 @@
+.header {
+    background-color: $blue;
+    z-index: 1000;
+
+    .logo {
+        width: 8rem;
+    }
+
+    .navbar-toggler {
+        box-shadow: none;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+
+        .nav-link {
+            color: white;
+            transition: $transition;
+
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}

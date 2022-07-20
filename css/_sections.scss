@@ -1,0 +1,75 @@
+/* Hero Section */
+.hero {
+    background-color: $blue;
+    padding-top: 200px;
+}
+
+/* Sponsors Section */
+.sponsors {
+    padding-top: 100px;
+
+    .sponsor {
+        min-width: 5rem;
+        max-width: 10rem;
+    }
+}
+
+/* About Section */
+.about {
+    @include vertical-padding;
+    overflow-x: hidden;
+
+    .about-text {
+        max-width: 500px;
+    }
+    
+    .about-image {
+        max-width: 300px;
+    }
+}
+
+/* Benefits Section */
+.benefits {
+    @include vertical-padding;
+    background-color: $blue;
+    color: white;
+
+    .card {
+        background: transparent;
+    
+        .card-graphic {
+            width: 6rem;
+        }
+
+        p {
+            max-width: 300px;
+        }
+    }
+}
+
+/* Membership Section */
+.membership {
+    @include vertical-padding;
+    background-color: #f4f4f4;
+    color: white;
+
+    .card {
+        max-width: 300px;
+        background: $blue;
+        border-top: 2px solid $red;
+
+        .button {
+            background-color: transparent;
+            color: $red;
+            border: 2px solid $red;
+            transition: $transition;
+
+            &:hover {
+                background-color: $red;
+                color: $blue;
+            }
+        }
+    }
+}
+
+
